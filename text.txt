@@ -1,0 +1,1 @@
+Sample text with unicode: Hello, 世界! 🌍

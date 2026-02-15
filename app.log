@@ -1,0 +1,284 @@
+[2026-02-13 00:36:45.626499] App started
+[2026-02-13 00:38:23.615900] App started
+2026-02-13 00:38:34,513 - INFO - App started
+2026-02-13 00:38:34,513 - WARNING - Disk usage high
+2026-02-13 00:38:34,513 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_18740\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2026-02-13 00:38:34,544 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\eventloop\zmqstream.py", line 565, in _log_error
+    f.result()
+    ~~~~~~~~^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 348, in dispatch_control
+    await self.process_control(msg)
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 385, in process_control
+    self._publish_status_and_flush("idle", "control", self.control_stream)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 661, in _publish_status_and_flush
+    self._publish_status(status, channel, parent)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 651, in _publish_status
+    self.session.send(
+    ~~~~~~~~~~~~~~~~~^
+        self.iopub_socket,
+        ^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ident=self._topic("status"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\jupyter_client\session.py", line 867, in send
+    stream.send_multipart(to_send, copy=copy)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 418, in send_multipart
+    return self.io_thread.send_multipart(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 348, in send_multipart
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 341, in schedule
+    f()
+    ~^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 348, in <lambda>
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+                          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 359, in _really_send
+    self.socket.send_multipart(msg, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\sugar\socket.py", line 749, in send_multipart
+    self.send(msg, zmq.SNDMORE | flags, copy=copy, track=track)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\sugar\socket.py", line 698, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1152, in zmq.backend.cython._zmq.Socket.send
+    def send(self, data, flags=0, copy: bint = True, track: bint = False):
+    ^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1194, in zmq.backend.cython._zmq.Socket.send
+    _check_closed(self)
+    ^^^
+  File "zmq/backend/cython/_zmq.py", line 1339, in zmq.backend.cython._zmq._check_closed
+    raise ZMQError(ENOTSOCK)
+    ^^^
+zmq.error.ZMQError: not a socket
+[2026-02-13 00:41:45.961617] App started
+2026-02-13 00:41:51,469 - INFO - App started
+2026-02-13 00:41:51,469 - WARNING - Disk usage high
+2026-02-13 00:41:51,469 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_18064\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[2026-02-13 00:43:33.423731] App started
+2026-02-13 00:43:44,350 - INFO - App started
+2026-02-13 00:43:44,350 - WARNING - Disk usage high
+2026-02-13 00:43:44,350 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_17332\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2026-02-13 00:43:44,380 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\eventloop\zmqstream.py", line 565, in _log_error
+    f.result()
+    ~~~~~~~~^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 348, in dispatch_control
+    await self.process_control(msg)
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 385, in process_control
+    self._publish_status_and_flush("idle", "control", self.control_stream)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 661, in _publish_status_and_flush
+    self._publish_status(status, channel, parent)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 651, in _publish_status
+    self.session.send(
+    ~~~~~~~~~~~~~~~~~^
+        self.iopub_socket,
+        ^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ident=self._topic("status"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\jupyter_client\session.py", line 867, in send
+    stream.send_multipart(to_send, copy=copy)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 418, in send_multipart
+    return self.io_thread.send_multipart(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 348, in send_multipart
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 341, in schedule
+    f()
+    ~^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 348, in <lambda>
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+                          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 359, in _really_send
+    self.socket.send_multipart(msg, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\sugar\socket.py", line 749, in send_multipart
+    self.send(msg, zmq.SNDMORE | flags, copy=copy, track=track)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\sugar\socket.py", line 698, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1152, in zmq.backend.cython._zmq.Socket.send
+    def send(self, data, flags=0, copy: bint = True, track: bint = False):
+    ^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1194, in zmq.backend.cython._zmq.Socket.send
+    _check_closed(self)
+    ^^^
+  File "zmq/backend/cython/_zmq.py", line 1339, in zmq.backend.cython._zmq._check_closed
+    raise ZMQError(ENOTSOCK)
+    ^^^
+zmq.error.ZMQError: not a socket
+[2026-02-13 00:45:36.598953] App started
+2026-02-13 00:45:48,375 - INFO - App started
+2026-02-13 00:45:48,375 - WARNING - Disk usage high
+2026-02-13 00:45:48,375 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_43508\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[2026-02-13 00:52:09.367732] App started
+2026-02-13 00:52:18,979 - INFO - App started
+2026-02-13 00:52:18,979 - WARNING - Disk usage high
+2026-02-13 00:52:18,979 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_40908\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[2026-02-13 00:52:48.308705] App started
+2026-02-13 00:53:00,659 - INFO - App started
+2026-02-13 00:53:00,660 - WARNING - Disk usage high
+2026-02-13 00:53:00,660 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_19428\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[2026-02-13 00:58:31.798893] App started
+2026-02-13 00:58:38,372 - INFO - App started
+2026-02-13 00:58:38,372 - WARNING - Disk usage high
+2026-02-13 00:58:38,372 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_41296\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[2026-02-13 01:00:12.882219] App started
+2026-02-13 01:00:22,462 - INFO - App started
+2026-02-13 01:00:22,462 - WARNING - Disk usage high
+2026-02-13 01:00:22,462 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_8756\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2026-02-13 01:00:22,495 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\eventloop\zmqstream.py", line 565, in _log_error
+    f.result()
+    ~~~~~~~~^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 348, in dispatch_control
+    await self.process_control(msg)
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 385, in process_control
+    self._publish_status_and_flush("idle", "control", self.control_stream)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 661, in _publish_status_and_flush
+    self._publish_status(status, channel, parent)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\kernelbase.py", line 651, in _publish_status
+    self.session.send(
+    ~~~~~~~~~~~~~~~~~^
+        self.iopub_socket,
+        ^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ident=self._topic("status"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\jupyter_client\session.py", line 867, in send
+    stream.send_multipart(to_send, copy=copy)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 418, in send_multipart
+    return self.io_thread.send_multipart(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 348, in send_multipart
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 341, in schedule
+    f()
+    ~^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 348, in <lambda>
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+                          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\ipykernel\iostream.py", line 359, in _really_send
+    self.socket.send_multipart(msg, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\sugar\socket.py", line 749, in send_multipart
+    self.send(msg, zmq.SNDMORE | flags, copy=copy, track=track)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkpar\AppData\Roaming\Python\Python314\site-packages\zmq\sugar\socket.py", line 698, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1152, in zmq.backend.cython._zmq.Socket.send
+    def send(self, data, flags=0, copy: bint = True, track: bint = False):
+    ^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1194, in zmq.backend.cython._zmq.Socket.send
+    _check_closed(self)
+    ^^^
+  File "zmq/backend/cython/_zmq.py", line 1339, in zmq.backend.cython._zmq._check_closed
+    raise ZMQError(ENOTSOCK)
+    ^^^
+zmq.error.ZMQError: not a socket
+[2026-02-13 01:06:41.516739] App started
+[2026-02-13 01:06:57.727407] App started
+2026-02-13 01:07:04,933 - INFO - App started
+2026-02-13 01:07:04,933 - WARNING - Disk usage high
+2026-02-13 01:07:04,933 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_19260\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[2026-02-13 01:09:48.799908] App started
+[2026-02-13 01:10:15.434892] App started
+[2026-02-13 01:10:59.611693] App started
+[2026-02-13 01:11:50.092954] App started
+[2026-02-13 01:12:19.822163] App started
+2026-02-13 01:12:23,838 - INFO - App started
+2026-02-13 01:12:23,838 - WARNING - Disk usage high
+2026-02-13 01:12:23,838 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_34428\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[2026-02-13 01:12:50.645688] App started
+[2026-02-13 01:13:21.464508] App started
+[2026-02-13 01:14:00.397024] App started
+[2026-02-13 01:14:33.605307] App started
+[2026-02-13 01:15:07.822521] App started
+[2026-02-13 01:15:45.289625] App started
+[2026-02-13 01:16:39.789660] App started
+[2026-02-13 01:59:50.486958] App started
+[2026-02-13 02:00:33.468519] App started
+2026-02-13 02:02:57,191 - INFO - App started
+2026-02-13 02:02:57,191 - WARNING - Disk usage high
+2026-02-13 02:02:57,191 - ERROR - Math failed
+Traceback (most recent call last):
+  File "C:\Users\tkpar\AppData\Local\Temp\ipykernel_24248\4026237089.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero

@@ -1,0 +1,3 @@
+name,age,city,zipcode,id,date_column
+Alice,25,NYC,10001,1,2021-01-01
+Bob,30,LA,90001,2,2021-01-02
