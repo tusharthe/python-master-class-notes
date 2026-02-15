@@ -8,6 +8,18 @@ This repository contains comprehensive notes and code examples for mastering Pyt
 3.  **Follow the Curriculum**: Start from Module 1 and work your way through. Each notebook corresponds to a chapter.
 4.  **Practice**: Run the code cells, modify them, and experiment to solidify your understanding.
 
+## Estimated Duration
+| Type | Duration | Pacing |
+| --- | --- | --- |
+| **Full-time Study** | ~3 Weeks | 6-8 hours/day |
+| **Part-time Study** | ~6-8 Weeks | 1.5-2 hours/day |
+
+### Breakdown by Module
+- **Module 1 (Fundamentals):** ~10 Days (Focus heavily on Data Structures & OOP)
+- **Module 2 (Intermediate):** ~5 Days
+- **Module 3 (Advanced):** ~12 Days (Complex topics require more experimentation)
+- **Module 4 (Data Analysis):** ~14 Days (Steep learning curve for pandas/NumPy)
+
 ## Curriculum
 
 The course is divided into four main modules:
